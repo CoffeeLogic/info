@@ -1,0 +1,290 @@
+/*===================
+GENERAL
+===================*/
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+}
+#wrapper
+{
+	max-width: 940px;
+	margin: 0 auto;
+}
+a
+{
+	text-decoration: none;
+}
+
+h3
+{
+	text-align: center;
+	font-size: 175%;
+  background-color: #333;
+}
+body, html
+{
+    height: 100%;
+}
+p
+{
+	text-align: center;
+}
+.padding10
+{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.padding30
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+em
+{
+  font-style: normal;
+}
+
+/*===================
+HEADERS
+===================*/
+
+header
+{
+	float: left;
+	marvin: 0 0 30px 0; 
+	/*(0 0 30px 0) = (top right bottom left) (clockwise)*/
+	padding: 5px 0 0 0;
+	width: 100%;
+  background-color: #333;
+}
+h1
+{
+	color: white;
+}
+h2
+{
+	color: white;
+	text-align: center;
+  background-color: #333;
+}
+h4
+{
+	margin: 0;
+}
+h3
+{
+	width: 100%; 
+	text-align: center; 
+	border-bottom: 1px solid #000; 
+	line-height: 0.1em;
+	margin: 10px 0 20px; 
+}
+h3 span
+{
+	background: #333; 
+  padding:0 10px; 
+}
+.titles
+{
+	text-align: center;
+	font-size: 18px;
+}
+/*===================
+NAVIGATION
+===================*/
+
+#logo
+{
+	text-align: center;
+	margin: 0;
+}
+
+/*===================
+Page: Main Picture
+===================*/
+.parallax
+{ 
+    /* The image used */
+    background-image: url("../img/mypics/vincent.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.midtext
+{
+	color: white;
+	padding-top: 15%;
+}
+.about
+{
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+/*===================
+Page: What I've done and can do
+===================*/
+.img-fluid
+{
+	height: 300px;
+	width: 300px;
+	border-radius: 25px;
+}
+/*===================
+Page: gallery
+===================*/
+.gallery
+{
+  display: flex;
+}
+
+.pictures
+{
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/*===================
+Footer
+===================*/
+footer
+{
+	padding-top: 30px;
+	text-align: center;
+}
+
+/*===================
+COLORS
+===================*/
+
+header
+{
+	background-color: #333;
+}
+.paragraph
+{
+	font-size: 14px;
+  color: white;
+}
+.social-icon
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about
+{
+  color: #79ff4d;
+}
+.titles
+{
+  color: #4dffdb;
+}
+
+/*==================
+BUTTTONS
+==================*/
+/* {
+  font-family: 'Roboto', sans-serif;
+}*/
+
+/*.btncont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: #1ECD97;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+button:hover {
+  color: white;
+  background: #1ECD97;
+}
+button:active {
+  letter-spacing: 2px;
+}
+/*button:after {
+  content: "SUBMIT";
+}
+
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #1ECD97;
+  -webkit-animation: rotating 2s 0.25s linear infinite;
+          animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: #1ECD97;
+  background: white;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #1ECD97;
+}
+.validate:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}*/
+
